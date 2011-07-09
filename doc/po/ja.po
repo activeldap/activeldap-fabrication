@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ActiveLdap Fabrication 1.0.0\n"
-"POT-Creation-Date: 2011-07-09 21:44+0900\n"
-"PO-Revision-Date: 2011-07-09 21:42+0900\n"
+"POT-Creation-Date: 2011-07-09 22:29+0900\n"
+"PO-Revision-Date: 2011-07-09 22:30+0900\n"
 "Last-Translator: Kouhei Sutou <kou@clear-code.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -247,12 +247,12 @@ msgstr ""
 #: doc/reference/en/index.html:6(title)
 #: doc/reference/en/file.README.html:6(title)
 msgid "File: README &mdash; ActiveLdap Fabrication"
-msgstr ""
+msgstr "ファイル: はじめに &mdash; ActiveLdap Fabrication"
 
 #: doc/reference/en/index.html:37(span)
 #: doc/reference/en/file.README.html:37(span)
 msgid "File: README"
-msgstr ""
+msgstr "ファイル: はじめに"
 
 #: doc/reference/en/index.html:57(h1) doc/reference/en/file.README.html:57(h1)
 #: doc/reference/en/frames.html:7(title) doc/reference/en/_index.html:6(title)
