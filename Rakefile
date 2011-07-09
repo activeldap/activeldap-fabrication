@@ -31,7 +31,7 @@ require 'active_ldap_fabrication'
 
 project_name = "ActiveLdap Fabrication"
 
-ENV["VERSION"] ||= ActiveLdap::VERSION::STRING
+ENV["VERSION"] ||= ActiveLdapFabrication::VERSION::STRING
 version = ENV["VERSION"]
 spec = nil
 Jeweler::Tasks.new do |_spec|
