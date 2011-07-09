@@ -1,21 +1,148 @@
 h1. ActiveLdap Fabrication
 
-"ActiveLdap":http://ruby-activeldap.rubyforge.org/ adapter
-for "Fabrication":http://fabricationgem.org/.
+"ActiveLdap":http://ruby-activeldap.rubyforge.org/ adapter for "Fabrication":http://fabricationgem.org/.
 
 h2. Description
 
-'ActiveLdap Fabrication' is an ActiveLdap adapter for
-Fabrication. It means that you can use Fabrication as
-fixture replacement for ActiveLdap.
-
-For example and usage - read the
-"document":http://ruby-activeldap.rubyforge.org/activeldap-fabrication/.
+'ActiveLdap Fabrication' is an ActiveLdap adapter for Fabrication. It means that you can use Fabrication as fixture replacement for ActiveLdap.
 
 h2. Requirements
 
-- "ActiveLdap":http://ruby-activeldap.rubyforge.org/
-- "Fabrication":http://fabricationgem.org/
+* "ActiveLdap":http://ruby-activeldap.rubyforge.org/
+* "Fabrication":http://fabricationgem.org/
+
+h2. Install
+
+Here are install steps for Rails 3:
+* Add activeldap-fabrication gem to your Gemfile.
+* Change fixture_replacement to Fabrication in your config/application.rb.
+* Add @require "active_ldap_fabrication"@ in your test/test_helper.rb or spec/spec_helper.rb.
+
+Gemfile:
+
+<pre>
+group :development, :test do
+  # ...
+  gem "activeldap-fabrication" # <- Add this.
+end
+</pre>
+
+config/application.rb:
+
+<pre>
+config.generators do |g|
+  # For test-unit
+  g.test_framework :test_unit, :fixture => true, :fixture_replacement => "fabrication"
+  g.fixture_replacement :fabrication, :dir => "test/fabricators"
+  # For RSpec
+  # g.test_framework      :rspec, :fixture => true, :fixture_replacement => "fabrication"
+  # g.fixture_replacement :fabrication
+end
+</pre>
+
+test/test_helper.rb:
+
+<pre>
+ENV["RAILS_ENV"] = "test"
+require File.expand_path('../../config/environment', __FILE__)
+require 'rails/test_help'
+require "active_ldap_fabrication" # <- Add this.
+
+class ActiveSupport::TestCase
+  # Add more helper methods to be used by all tests here...
+
+  # LDAP: start
+  setup do
+    @dumped_data = nil
+    begin
+      @dumped_data = ActiveLdap::Base.dump(:scope => :sub)
+    rescue ActiveLdap::ConnectionError
+    end
+    ActiveLdap::Base.delete_all(nil, :scope => :sub)
+    populate_ldap
+  end
+
+  teardown do
+    if @dumped_data
+      ActiveLdap::Base.setup_connection
+      ActiveLdap::Base.delete_all(nil, :scope => :sub)
+      ActiveLdap::Base.load(@dumped_data)
+    end
+  end
+
+  def populate_ldap
+    populate_ldap_base
+    populate_ldap_ou
+  end
+
+  def populate_ldap_base
+    ActiveLdap::Populate.ensure_base
+  end
+
+  def populate_ldap_ou
+  end
+  # LDAP: end
+end
+</pre>
+
+h2. Usage
+
+We generate User model:
+
+<pre class="command">
+% script/rails generate model User --classes person
+</pre>
+
+We populate ou=Users on setup in test/test_helper.rb:
+
+<pre>
+# ...
+class ActiveSupport::TestCase
+  # ...
+  def populate_ldap_ou
+    ActiveLdap::Populate.ensure_ou("Users") # <- Add this.
+  end
+end
+</pre>
+
+We define test data in test/fabricators/user_fabricator.rb:
+
+<pre>
+Fabricator(:user) do
+end
+
+Fabricator(:bob, :from => :user) do
+  cn "Bob"
+  sn "Dyran"
+end
+</pre>
+
+We add a test for User model in test/unit/user_test.rb:
+
+<pre>
+require 'test_helper'
+
+class UserTest < ActiveSupport::TestCase
+   test "cn" do
+     assert_equal("Bob", Fabricate(:bob).cn)
+   end
+end
+</pre>
+
+We run tests:
+
+<pre class="command">
+% bundle exec rake test
+Loaded suite /var/lib/gems/1.9.1/gems/rake-0.9.2/lib/rake/rake_test_loader
+Started
+
+UserTest:
+     PASS cn (1.10s)
+
+Finished in 1.101005 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 skips
+</pre>
 
 h2. Author
 
@@ -23,11 +150,7 @@ h2. Author
 
 h2. Licence
 
-This program is free software; you can redistribute it
-and/or modify it.  It is dual licensed under Ruby's license
-and under the terms of the Lesser GNU General Public License
-as published by the Free Software Foundation; either version
-2.1, or (at your option) any later version.
+This program is free software; you can redistribute it and/or modify it.  It is dual licensed under Ruby's license and under the terms of the Lesser GNU General Public License as published by the Free Software Foundation; either version 2.1, or (at your option) any later version.
 
 Please see the file COPYING for the terms of the licence.
 
