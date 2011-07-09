@@ -119,8 +119,6 @@ module ActiveLdapFabricationTestUtils
       populate_base
       populate_ou
       populate_user_class
-      populate_group_class
-      populate_associations
     end
 
     def populate_base
@@ -176,31 +174,6 @@ module ActiveLdapFabricationTestUtils
       def @user_class.name
         "User"
       end
-    end
-
-    def populate_group_class
-      @group_class = Class.new(ActiveLdap::Base)
-      @group_class.ldap_mapping :prefix => "ou=Groups",
-                                :scope => :sub,
-                                :classes => ["posixGroup"]
-      def @group_class.name
-        "Group"
-      end
-    end
-
-    def populate_associations
-      @user_class.belongs_to :groups, :many => "memberUid"
-      @user_class.belongs_to :primary_group,
-                             :foreign_key => "gidNumber",
-                             :primary_key => "gidNumber"
-      @group_class.has_many :members, :wrap => "memberUid"
-      @group_class.has_many :primary_members,
-                            :foreign_key => "gidNumber",
-                            :primary_key => "gidNumber"
-      @user_class.set_associated_class(:groups, @group_class)
-      @user_class.set_associated_class(:primary_group, @group_class)
-      @group_class.set_associated_class(:members, @user_class)
-      @group_class.set_associated_class(:primary_members, @user_class)
     end
   end
 end
