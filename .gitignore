@@ -6,3 +6,4 @@
 /doc/po/*.pot
 /doc/reference/
 /doc/html/activeldap-fabrication/
+/*.gemspec
