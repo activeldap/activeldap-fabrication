@@ -1,0 +1,1285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ActiveLdap Fabrication 1.0.0\n"
+"POT-Creation-Date: 2011-07-09 21:44+0900\n"
+"PO-Revision-Date: 2011-07-09 21:42+0900\n"
+"Last-Translator: Kouhei Sutou <kou@clear-code.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: doc/reference/en/file.news.html:6(title)
+msgid "File: news &mdash; ActiveLdap Fabrication"
+msgstr "ファイル: お知らせ &mdash; ActiveLdap Fabrication"
+
+#: doc/reference/en/file.news.html:17(script)
+#: doc/reference/en/top-level-namespace.html:17(script)
+#: doc/reference/en/index.html:17(script)
+#: doc/reference/en/file.README.html:17(script)
+#: doc/reference/en/ActiveLdapFabrication.html:17(script)
+#: doc/reference/en/_index.html:15(script)
+msgid "relpath = ''; if (relpath != '') relpath += '/';"
+msgstr ""
+
+#: doc/reference/en/file.news.html:29(script)
+#: doc/reference/en/top-level-namespace.html:29(script)
+#: doc/reference/en/index.html:29(script)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:29(script)
+#: doc/reference/en/file.README.html:29(script)
+#: doc/reference/en/ActiveLdapFabrication.html:29(script)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:29(script)
+#: doc/reference/en/_index.html:27(script)
+msgid "if (window.top.frames.main) document.body.className = 'frames';"
+msgstr ""
+
+#: doc/reference/en/file.news.html:36(a)
+#: doc/reference/en/top-level-namespace.html:36(a)
+#: doc/reference/en/index.html:36(a) doc/reference/en/file.README.html:36(a)
+msgid "Index"
+msgstr "索引"
+
+#: doc/reference/en/file.news.html:37(span)
+msgid "File: news"
+msgstr "ファイル: お知らせ"
+
+#: doc/reference/en/file.news.html:40(span)
+#: doc/reference/en/top-level-namespace.html:42(span)
+#: doc/reference/en/index.html:40(span) doc/reference/en/index.html:94(span)
+#: doc/reference/en/index.html:105(span) doc/reference/en/index.html:108(span)
+#: doc/reference/en/index.html:115(span) doc/reference/en/index.html:116(span)
+#: doc/reference/en/index.html:145(span) doc/reference/en/index.html:151(span)
+#: doc/reference/en/index.html:154(span) doc/reference/en/index.html:165(span)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:42(span)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:106(span)
+#: doc/reference/en/file.README.html:40(span)
+#: doc/reference/en/file.README.html:94(span)
+#: doc/reference/en/file.README.html:105(span)
+#: doc/reference/en/file.README.html:108(span)
+#: doc/reference/en/file.README.html:115(span)
+#: doc/reference/en/file.README.html:116(span)
+#: doc/reference/en/file.README.html:145(span)
+#: doc/reference/en/file.README.html:151(span)
+#: doc/reference/en/file.README.html:154(span)
+#: doc/reference/en/file.README.html:165(span)
+#: doc/reference/en/ActiveLdapFabrication.html:42(span)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:42(span)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:184(span)
+#: doc/reference/en/_index.html:38(span)
+msgid "("
+msgstr ""
+
+#: doc/reference/en/file.news.html:40(a)
+#: doc/reference/en/top-level-namespace.html:42(a)
+#: doc/reference/en/index.html:40(a)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:42(a)
+#: doc/reference/en/file.README.html:40(a)
+#: doc/reference/en/ActiveLdapFabrication.html:42(a)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:42(a)
+#: doc/reference/en/_index.html:38(a)
+msgid "no frames"
+msgstr "フレーム無し"
+
+#: doc/reference/en/file.news.html:40(span)
+#: doc/reference/en/top-level-namespace.html:42(span)
+#: doc/reference/en/index.html:40(span) doc/reference/en/index.html:94(span)
+#: doc/reference/en/index.html:105(span) doc/reference/en/index.html:108(span)
+#: doc/reference/en/index.html:115(span) doc/reference/en/index.html:116(span)
+#: doc/reference/en/index.html:145(span) doc/reference/en/index.html:151(span)
+#: doc/reference/en/index.html:154(span) doc/reference/en/index.html:165(span)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:42(span)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:106(span)
+#: doc/reference/en/file.README.html:40(span)
+#: doc/reference/en/file.README.html:94(span)
+#: doc/reference/en/file.README.html:105(span)
+#: doc/reference/en/file.README.html:108(span)
+#: doc/reference/en/file.README.html:115(span)
+#: doc/reference/en/file.README.html:116(span)
+#: doc/reference/en/file.README.html:145(span)
+#: doc/reference/en/file.README.html:151(span)
+#: doc/reference/en/file.README.html:154(span)
+#: doc/reference/en/file.README.html:165(span)
+#: doc/reference/en/ActiveLdapFabrication.html:42(span)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:42(span)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:184(span)
+#: doc/reference/en/_index.html:38(span)
+msgid ")"
+msgstr ""
+
+#: doc/reference/en/file.news.html:45(a)
+#: doc/reference/en/top-level-namespace.html:47(a)
+#: doc/reference/en/class_list.html:28(h1) doc/reference/en/index.html:45(a)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:47(a)
+#: doc/reference/en/file.README.html:45(a)
+#: doc/reference/en/ActiveLdapFabrication.html:47(a)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:47(a)
+#: doc/reference/en/_index.html:43(a)
+msgid "Class List"
+msgstr "クラス一覧"
+
+#: doc/reference/en/file.news.html:47(a)
+#: doc/reference/en/top-level-namespace.html:49(a)
+#: doc/reference/en/method_list.html:28(h1) doc/reference/en/index.html:47(a)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:49(a)
+#: doc/reference/en/file.README.html:47(a)
+#: doc/reference/en/ActiveLdapFabrication.html:49(a)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:49(a)
+#: doc/reference/en/_index.html:45(a)
+msgid "Method List"
+msgstr "メソッド一覧"
+
+#: doc/reference/en/file.news.html:49(a)
+#: doc/reference/en/top-level-namespace.html:51(a)
+#: doc/reference/en/index.html:49(a)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:51(a)
+#: doc/reference/en/file.README.html:49(a)
+#: doc/reference/en/ActiveLdapFabrication.html:51(a)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:51(a)
+#: doc/reference/en/file_list.html:28(h1) doc/reference/en/_index.html:47(a)
+msgid "File List"
+msgstr "ファイル一覧"
+
+#: doc/reference/en/file.news.html:57(h1)
+msgid "News"
+msgstr "お知らせ"
+
+#: doc/reference/en/file.news.html:58(h2)
+msgid "1.0.0: 2011-07-09"
+msgstr ""
+
+#: doc/reference/en/file.news.html:60(li)
+msgid "Initial release!!!"
+msgstr "最初のリリース！！！"
+
+#: doc/reference/en/top-level-namespace.html:6(title)
+msgid "Top Level Namespace &mdash; ActiveLdap Fabrication"
+msgstr "トップレベルネームスペース &mdash; ActiveLdap Fabrication"
+
+#: doc/reference/en/top-level-namespace.html:39(span)
+#: doc/reference/en/top-level-namespace.html:59(h1)
+#: doc/reference/en/class_list.html:41(a)
+#: doc/reference/en/class_list.html:42(small)
+msgid "Top Level Namespace"
+msgstr "トップレベルネームスペース"
+
+#: doc/reference/en/top-level-namespace.html:77(h2)
+#: doc/reference/en/ActiveLdapFabrication.html:104(h2)
+msgid "Defined Under Namespace"
+msgstr "ネームスペース内で定義"
+
+#: doc/reference/en/top-level-namespace.html:81(strong)
+#: doc/reference/en/ActiveLdapFabrication.html:108(strong)
+msgid "Modules:"
+msgstr "モジュール一覧:"
+
+#: doc/reference/en/top-level-namespace.html:81(a)
+#: doc/reference/en/class_list.html:42(a)
+#: doc/reference/en/class_list.html:42(small)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:37(a)
+#: doc/reference/en/ActiveLdapFabrication.html:39(span)
+#: doc/reference/en/_index.html:94(a)
+msgid "ActiveLdapFabrication"
+msgstr ""
+
+#: doc/reference/en/method_list.html:21(script)
+#: doc/reference/en/class_list.html:21(script)
+#: doc/reference/en/file_list.html:21(script)
+msgid ""
+"if (window.top.frames.main) { document.getElementById('base_target').target "
+"= 'main'; document.body.className = 'frames'; }"
+msgstr ""
+
+#: doc/reference/en/method_list.html:31(a)
+#: doc/reference/en/class_list.html:31(a)
+#: doc/reference/en/file_list.html:31(a)
+msgid "Classes"
+msgstr "クラス"
+
+#: doc/reference/en/method_list.html:33(a)
+#: doc/reference/en/class_list.html:33(a)
+#: doc/reference/en/file_list.html:33(a)
+msgid "Methods"
+msgstr "メソッド"
+
+#: doc/reference/en/method_list.html:35(a)
+#: doc/reference/en/class_list.html:35(a)
+#: doc/reference/en/file_list.html:35(a)
+msgid "Files"
+msgstr "ファイル"
+
+#: doc/reference/en/method_list.html:38(div)
+#: doc/reference/en/class_list.html:38(div)
+#: doc/reference/en/file_list.html:38(div)
+msgid "Search: <input type=\"text\"/>"
+msgstr "検索: <input type=\"text\"/>"
+
+#: doc/reference/en/method_list.html:44(a)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:115(strong)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:146(strong)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:184(span)
+msgid "supports?"
+msgstr ""
+
+#: doc/reference/en/method_list.html:46(small)
+#: doc/reference/en/class_list.html:42(a)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:76(li)
+msgid "Fabrication::Generator::ActiveLdap"
+msgstr ""
+
+#: doc/reference/en/class_list.html:42(a)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:39(span)
+#: doc/reference/en/ActiveLdapFabrication.html:108(a)
+#: doc/reference/en/_index.html:107(a)
+msgid "VERSION"
+msgstr ""
+
+#: doc/reference/en/class_list.html:42(small)
+msgid "Fabrication::Generator"
+msgstr ""
+
+#: doc/reference/en/class_list.html:42(li)
+msgid ""
+"<span class=\"object_link\"><placeholder-1/></span> &lt; Base<placeholder-2/>"
+msgstr ""
+
+#: doc/reference/en/index.html:6(title)
+#: doc/reference/en/file.README.html:6(title)
+msgid "File: README &mdash; ActiveLdap Fabrication"
+msgstr ""
+
+#: doc/reference/en/index.html:37(span)
+#: doc/reference/en/file.README.html:37(span)
+msgid "File: README"
+msgstr ""
+
+#: doc/reference/en/index.html:57(h1) doc/reference/en/file.README.html:57(h1)
+#: doc/reference/en/frames.html:7(title) doc/reference/en/_index.html:6(title)
+#: doc/reference/en/_index.html:55(h1)
+msgid "ActiveLdap Fabrication"
+msgstr ""
+
+#: doc/reference/en/index.html:58(a) doc/reference/en/index.html:63(a)
+#: doc/reference/en/index.html:105(span) doc/reference/en/index.html:106(span)
+#: doc/reference/en/index.html:108(span) doc/reference/en/index.html:114(span)
+#: doc/reference/en/index.html:115(span) doc/reference/en/index.html:116(span)
+#: doc/reference/en/index.html:126(span) doc/reference/en/index.html:145(span)
+#: doc/reference/en/file.README.html:58(a)
+#: doc/reference/en/file.README.html:63(a)
+#: doc/reference/en/file.README.html:105(span)
+#: doc/reference/en/file.README.html:106(span)
+#: doc/reference/en/file.README.html:108(span)
+#: doc/reference/en/file.README.html:114(span)
+#: doc/reference/en/file.README.html:115(span)
+#: doc/reference/en/file.README.html:116(span)
+#: doc/reference/en/file.README.html:126(span)
+#: doc/reference/en/file.README.html:145(span)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:39(span)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:185(span)
+#: doc/reference/en/_index.html:87(a)
+msgid "ActiveLdap"
+msgstr ""
+
+#: doc/reference/en/index.html:58(a) doc/reference/en/index.html:64(a)
+#: doc/reference/en/file.README.html:58(a)
+#: doc/reference/en/file.README.html:64(a)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:37(span)
+msgid "Fabrication"
+msgstr ""
+
+#: doc/reference/en/index.html:58(p) doc/reference/en/file.README.html:58(p)
+msgid "<placeholder-1/> adapter for <placeholder-2/>."
+msgstr "<placeholder-2/>用の<placeholder-1/>アダプタ。"
+
+#: doc/reference/en/index.html:59(h2) doc/reference/en/file.README.html:59(h2)
+msgid "Description"
+msgstr "説明"
+
+#: doc/reference/en/index.html:60(p) doc/reference/en/file.README.html:60(p)
+msgid ""
+"‘ActiveLdap Fabrication’ is an ActiveLdap adapter for Fabrication. It means "
+"that you can use Fabrication as fixture replacement for ActiveLdap."
+msgstr ""
+"‘ActiveLdap Fabrication’はFabrication用のActiveLdapアダプタです。これを使うと"
+"ActiveLdapの代替フィクスチャーシステムとしてFabricationを使えるようになりま"
+"す。"
+
+#: doc/reference/en/index.html:61(h2) doc/reference/en/file.README.html:61(h2)
+msgid "Requirements"
+msgstr "必要なもの"
+
+#: doc/reference/en/index.html:66(h2) doc/reference/en/file.README.html:66(h2)
+msgid "Install"
+msgstr "インストール"
+
+#: doc/reference/en/index.html:67(p) doc/reference/en/file.README.html:67(p)
+msgid "Here are install steps for Rails 3:"
+msgstr "Rails 3用のインストール手順:"
+
+#: doc/reference/en/index.html:69(li) doc/reference/en/file.README.html:69(li)
+msgid "Add activeldap-fabrication gem to your Gemfile."
+msgstr "Gemfileにactiveldap-fabrication gemを追加します。"
+
+#: doc/reference/en/index.html:70(li) doc/reference/en/file.README.html:70(li)
+msgid ""
+"Change fixture_replacement to Fabrication in your config/application.rb."
+msgstr "config/application.rbでfixture_replacementをFabricationに変更します。"
+
+#: doc/reference/en/index.html:71(code)
+#: doc/reference/en/file.README.html:71(code)
+msgid "require \"active_ldap_fabrication\""
+msgstr ""
+
+#: doc/reference/en/index.html:71(li) doc/reference/en/file.README.html:71(li)
+msgid ""
+"Add <placeholder-1/> in your test/test_helper.rb or spec/spec_helper.rb."
+msgstr ""
+"test/test_helper.rbまたはspec/spec_helper.rbに<placeholder-1/>を追加します。"
+
+#: doc/reference/en/index.html:73(p) doc/reference/en/file.README.html:73(p)
+msgid "Gemfile:"
+msgstr ""
+
+#: doc/reference/en/index.html:75(span)
+#: doc/reference/en/file.README.html:75(span)
+msgid "group"
+msgstr ""
+
+#: doc/reference/en/index.html:75(span)
+#: doc/reference/en/file.README.html:75(span)
+msgid ":development"
+msgstr ""
+
+#: doc/reference/en/index.html:75(span) doc/reference/en/index.html:84(span)
+#: doc/reference/en/index.html:85(span) doc/reference/en/index.html:94(span)
+#: doc/reference/en/index.html:108(span) doc/reference/en/index.html:115(span)
+#: doc/reference/en/index.html:154(span) doc/reference/en/index.html:165(span)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:106(span)
+#: doc/reference/en/file.README.html:75(span)
+#: doc/reference/en/file.README.html:84(span)
+#: doc/reference/en/file.README.html:85(span)
+#: doc/reference/en/file.README.html:94(span)
+#: doc/reference/en/file.README.html:108(span)
+#: doc/reference/en/file.README.html:115(span)
+#: doc/reference/en/file.README.html:154(span)
+#: doc/reference/en/file.README.html:165(span)
+msgid ","
+msgstr ""
+
+#: doc/reference/en/index.html:75(span)
+#: doc/reference/en/file.README.html:75(span)
+msgid ":test"
+msgstr ""
+
+#: doc/reference/en/index.html:75(span) doc/reference/en/index.html:82(span)
+#: doc/reference/en/index.html:102(span) doc/reference/en/index.html:112(span)
+#: doc/reference/en/index.html:151(span) doc/reference/en/index.html:154(span)
+#: doc/reference/en/index.html:164(span)
+#: doc/reference/en/file.README.html:75(span)
+#: doc/reference/en/file.README.html:82(span)
+#: doc/reference/en/file.README.html:102(span)
+#: doc/reference/en/file.README.html:112(span)
+#: doc/reference/en/file.README.html:151(span)
+#: doc/reference/en/file.README.html:154(span)
+#: doc/reference/en/file.README.html:164(span)
+msgid "do"
+msgstr ""
+
+#: doc/reference/en/index.html:76(span) doc/reference/en/index.html:141(span)
+#: doc/reference/en/index.html:143(span)
+#: doc/reference/en/file.README.html:76(span)
+#: doc/reference/en/file.README.html:141(span)
+#: doc/reference/en/file.README.html:143(span)
+msgid "# ..."
+msgstr ""
+
+#: doc/reference/en/index.html:77(span)
+#: doc/reference/en/file.README.html:77(span)
+msgid "gem"
+msgstr ""
+
+#: doc/reference/en/index.html:77(span)
+#: doc/reference/en/file.README.html:77(span)
+msgid "\"activeldap-fabrication\""
+msgstr ""
+
+#: doc/reference/en/index.html:77(span) doc/reference/en/index.html:96(span)
+#: doc/reference/en/index.html:145(span)
+#: doc/reference/en/file.README.html:77(span)
+#: doc/reference/en/file.README.html:96(span)
+#: doc/reference/en/file.README.html:145(span)
+msgid "# &lt;- Add this."
+msgstr "# &lt;- これを追加。"
+
+#: doc/reference/en/index.html:78(span) doc/reference/en/index.html:89(span)
+#: doc/reference/en/index.html:107(span) doc/reference/en/index.html:110(span)
+#: doc/reference/en/index.html:117(span) doc/reference/en/index.html:118(span)
+#: doc/reference/en/index.html:123(span) doc/reference/en/index.html:127(span)
+#: doc/reference/en/index.html:130(span) doc/reference/en/index.html:132(span)
+#: doc/reference/en/index.html:146(span) doc/reference/en/index.html:147(span)
+#: doc/reference/en/index.html:152(span) doc/reference/en/index.html:157(span)
+#: doc/reference/en/index.html:166(span) doc/reference/en/index.html:167(span)
+#: doc/reference/en/file.README.html:78(span)
+#: doc/reference/en/file.README.html:89(span)
+#: doc/reference/en/file.README.html:107(span)
+#: doc/reference/en/file.README.html:110(span)
+#: doc/reference/en/file.README.html:117(span)
+#: doc/reference/en/file.README.html:118(span)
+#: doc/reference/en/file.README.html:123(span)
+#: doc/reference/en/file.README.html:127(span)
+#: doc/reference/en/file.README.html:130(span)
+#: doc/reference/en/file.README.html:132(span)
+#: doc/reference/en/file.README.html:146(span)
+#: doc/reference/en/file.README.html:147(span)
+#: doc/reference/en/file.README.html:152(span)
+#: doc/reference/en/file.README.html:157(span)
+#: doc/reference/en/file.README.html:166(span)
+#: doc/reference/en/file.README.html:167(span)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:186(span)
+msgid "end"
+msgstr ""
+
+#: doc/reference/en/index.html:80(p) doc/reference/en/file.README.html:80(p)
+msgid "config/application.rb:"
+msgstr ""
+
+#: doc/reference/en/index.html:82(span)
+#: doc/reference/en/file.README.html:82(span)
+msgid "config"
+msgstr ""
+
+#: doc/reference/en/index.html:82(span) doc/reference/en/index.html:84(span)
+#: doc/reference/en/index.html:85(span) doc/reference/en/index.html:94(span)
+#: doc/reference/en/index.html:105(span) doc/reference/en/index.html:108(span)
+#: doc/reference/en/index.html:114(span) doc/reference/en/index.html:115(span)
+#: doc/reference/en/index.html:116(span) doc/reference/en/index.html:126(span)
+#: doc/reference/en/index.html:145(span) doc/reference/en/index.html:165(span)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:106(span)
+#: doc/reference/en/file.README.html:82(span)
+#: doc/reference/en/file.README.html:84(span)
+#: doc/reference/en/file.README.html:85(span)
+#: doc/reference/en/file.README.html:94(span)
+#: doc/reference/en/file.README.html:105(span)
+#: doc/reference/en/file.README.html:108(span)
+#: doc/reference/en/file.README.html:114(span)
+#: doc/reference/en/file.README.html:115(span)
+#: doc/reference/en/file.README.html:116(span)
+#: doc/reference/en/file.README.html:126(span)
+#: doc/reference/en/file.README.html:145(span)
+#: doc/reference/en/file.README.html:165(span)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:184(span)
+msgid "."
+msgstr ""
+
+#: doc/reference/en/index.html:82(span)
+#: doc/reference/en/file.README.html:82(span)
+msgid "generators"
+msgstr ""
+
+#: doc/reference/en/index.html:82(span)
+#: doc/reference/en/file.README.html:82(span)
+msgid "|"
+msgstr ""
+
+#: doc/reference/en/index.html:82(span) doc/reference/en/index.html:84(span)
+#: doc/reference/en/index.html:85(span)
+#: doc/reference/en/file.README.html:82(span)
+#: doc/reference/en/file.README.html:84(span)
+#: doc/reference/en/file.README.html:85(span)
+msgid "g"
+msgstr ""
+
+#: doc/reference/en/index.html:83(span)
+#: doc/reference/en/file.README.html:83(span)
+msgid "# For test-unit"
+msgstr "# test-unit用"
+
+#: doc/reference/en/index.html:84(span)
+#: doc/reference/en/file.README.html:84(span)
+msgid "test_framework"
+msgstr ""
+
+#: doc/reference/en/index.html:84(span)
+#: doc/reference/en/file.README.html:84(span)
+msgid ":test_unit"
+msgstr ""
+
+#: doc/reference/en/index.html:84(span)
+#: doc/reference/en/file.README.html:84(span)
+msgid ":fixture"
+msgstr ""
+
+#: doc/reference/en/index.html:84(span) doc/reference/en/index.html:85(span)
+#: doc/reference/en/index.html:93(span) doc/reference/en/index.html:103(span)
+#: doc/reference/en/index.html:105(span) doc/reference/en/index.html:108(span)
+#: doc/reference/en/index.html:115(span) doc/reference/en/index.html:154(span)
+#: doc/reference/en/file.README.html:84(span)
+#: doc/reference/en/file.README.html:85(span)
+#: doc/reference/en/file.README.html:93(span)
+#: doc/reference/en/file.README.html:103(span)
+#: doc/reference/en/file.README.html:105(span)
+#: doc/reference/en/file.README.html:108(span)
+#: doc/reference/en/file.README.html:115(span)
+#: doc/reference/en/file.README.html:154(span)
+msgid "="
+msgstr ""
+
+#: doc/reference/en/index.html:84(span) doc/reference/en/index.html:85(span)
+#: doc/reference/en/index.html:105(span) doc/reference/en/index.html:108(span)
+#: doc/reference/en/index.html:115(span) doc/reference/en/index.html:154(span)
+#: doc/reference/en/file.README.html:84(span)
+#: doc/reference/en/file.README.html:85(span)
+#: doc/reference/en/file.README.html:105(span)
+#: doc/reference/en/file.README.html:108(span)
+#: doc/reference/en/file.README.html:115(span)
+#: doc/reference/en/file.README.html:154(span)
+msgid "&gt;"
+msgstr ""
+
+#: doc/reference/en/index.html:84(span)
+#: doc/reference/en/file.README.html:84(span)
+msgid "true"
+msgstr ""
+
+#: doc/reference/en/index.html:84(span)
+#: doc/reference/en/file.README.html:84(span)
+msgid ":fixture_replacement"
+msgstr ""
+
+#: doc/reference/en/index.html:84(span)
+#: doc/reference/en/file.README.html:84(span)
+msgid "\"fabrication\""
+msgstr ""
+
+#: doc/reference/en/index.html:85(span)
+#: doc/reference/en/file.README.html:85(span)
+msgid "fixture_replacement"
+msgstr ""
+
+#: doc/reference/en/index.html:85(span)
+#: doc/reference/en/file.README.html:85(span)
+msgid ":fabrication"
+msgstr ""
+
+#: doc/reference/en/index.html:85(span)
+#: doc/reference/en/file.README.html:85(span)
+msgid ":dir"
+msgstr ""
+
+#: doc/reference/en/index.html:85(span)
+#: doc/reference/en/file.README.html:85(span)
+msgid "\"test/fabricators\""
+msgstr ""
+
+#: doc/reference/en/index.html:86(span)
+#: doc/reference/en/file.README.html:86(span)
+msgid "# For RSpec"
+msgstr "# RSpec用"
+
+#: doc/reference/en/index.html:87(span)
+#: doc/reference/en/file.README.html:87(span)
+msgid ""
+"# g.test_framework :rspec, :fixture =&gt; true, :fixture_replacement =&gt; "
+"\"fabrication\""
+msgstr ""
+
+#: doc/reference/en/index.html:88(span)
+#: doc/reference/en/file.README.html:88(span)
+msgid "# g.fixture_replacement :fabrication"
+msgstr ""
+
+#: doc/reference/en/index.html:91(p) doc/reference/en/file.README.html:91(p)
+msgid "test/test_helper.rb:"
+msgstr ""
+
+#: doc/reference/en/index.html:93(span)
+#: doc/reference/en/file.README.html:93(span)
+msgid "ENV"
+msgstr ""
+
+#: doc/reference/en/index.html:93(span)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:106(span)
+#: doc/reference/en/file.README.html:93(span)
+msgid "["
+msgstr ""
+
+#: doc/reference/en/index.html:93(span)
+#: doc/reference/en/file.README.html:93(span)
+msgid "\"RAILS_ENV\""
+msgstr ""
+
+#: doc/reference/en/index.html:93(span)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:106(span)
+#: doc/reference/en/file.README.html:93(span)
+msgid "]"
+msgstr ""
+
+#: doc/reference/en/index.html:93(span)
+#: doc/reference/en/file.README.html:93(span)
+msgid "\"test\""
+msgstr ""
+
+#: doc/reference/en/index.html:94(span) doc/reference/en/index.html:95(span)
+#: doc/reference/en/index.html:96(span) doc/reference/en/index.html:161(span)
+#: doc/reference/en/file.README.html:94(span)
+#: doc/reference/en/file.README.html:95(span)
+#: doc/reference/en/file.README.html:96(span)
+#: doc/reference/en/file.README.html:161(span)
+msgid "require"
+msgstr ""
+
+#: doc/reference/en/index.html:94(span)
+#: doc/reference/en/file.README.html:94(span)
+msgid "File"
+msgstr ""
+
+#: doc/reference/en/index.html:94(span)
+#: doc/reference/en/file.README.html:94(span)
+msgid "expand_path"
+msgstr ""
+
+#: doc/reference/en/index.html:94(span)
+#: doc/reference/en/file.README.html:94(span)
+msgid "'../../config/environment'"
+msgstr ""
+
+#: doc/reference/en/index.html:94(span)
+#: doc/reference/en/file.README.html:94(span)
+msgid "__FILE__"
+msgstr ""
+
+#: doc/reference/en/index.html:95(span)
+#: doc/reference/en/file.README.html:95(span)
+msgid "'rails/test_help'"
+msgstr ""
+
+#: doc/reference/en/index.html:96(span)
+#: doc/reference/en/file.README.html:96(span)
+msgid "\"active_ldap_fabrication\""
+msgstr ""
+
+#: doc/reference/en/index.html:98(span) doc/reference/en/index.html:142(span)
+#: doc/reference/en/index.html:163(span)
+#: doc/reference/en/file.README.html:98(span)
+#: doc/reference/en/file.README.html:142(span)
+#: doc/reference/en/file.README.html:163(span)
+msgid "class"
+msgstr ""
+
+#: doc/reference/en/index.html:98(span) doc/reference/en/index.html:142(span)
+#: doc/reference/en/index.html:163(span)
+#: doc/reference/en/file.README.html:98(span)
+#: doc/reference/en/file.README.html:142(span)
+#: doc/reference/en/file.README.html:163(span)
+msgid "ActiveSupport"
+msgstr ""
+
+#: doc/reference/en/index.html:98(span) doc/reference/en/index.html:105(span)
+#: doc/reference/en/index.html:106(span) doc/reference/en/index.html:108(span)
+#: doc/reference/en/index.html:114(span) doc/reference/en/index.html:115(span)
+#: doc/reference/en/index.html:116(span) doc/reference/en/index.html:126(span)
+#: doc/reference/en/index.html:142(span) doc/reference/en/index.html:145(span)
+#: doc/reference/en/index.html:163(span)
+#: doc/reference/en/file.README.html:98(span)
+#: doc/reference/en/file.README.html:105(span)
+#: doc/reference/en/file.README.html:106(span)
+#: doc/reference/en/file.README.html:108(span)
+#: doc/reference/en/file.README.html:114(span)
+#: doc/reference/en/file.README.html:115(span)
+#: doc/reference/en/file.README.html:116(span)
+#: doc/reference/en/file.README.html:126(span)
+#: doc/reference/en/file.README.html:142(span)
+#: doc/reference/en/file.README.html:145(span)
+#: doc/reference/en/file.README.html:163(span)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:185(span)
+msgid "::"
+msgstr ""
+
+#: doc/reference/en/index.html:98(span) doc/reference/en/index.html:142(span)
+#: doc/reference/en/index.html:163(span)
+#: doc/reference/en/file.README.html:98(span)
+#: doc/reference/en/file.README.html:142(span)
+#: doc/reference/en/file.README.html:163(span)
+msgid "TestCase"
+msgstr ""
+
+#: doc/reference/en/index.html:99(span)
+#: doc/reference/en/file.README.html:99(span)
+msgid "# Add more helper methods to be used by all tests here..."
+msgstr ""
+
+#: doc/reference/en/index.html:101(span)
+#: doc/reference/en/file.README.html:101(span)
+msgid "# LDAP: start"
+msgstr "# LDAP: ここから"
+
+#: doc/reference/en/index.html:102(span)
+#: doc/reference/en/file.README.html:102(span)
+msgid "setup"
+msgstr ""
+
+#: doc/reference/en/index.html:103(span) doc/reference/en/index.html:105(span)
+#: doc/reference/en/index.html:113(span) doc/reference/en/index.html:116(span)
+#: doc/reference/en/file.README.html:103(span)
+#: doc/reference/en/file.README.html:105(span)
+#: doc/reference/en/file.README.html:113(span)
+#: doc/reference/en/file.README.html:116(span)
+msgid "@dumped_data"
+msgstr ""
+
+#: doc/reference/en/index.html:103(span) doc/reference/en/index.html:108(span)
+#: doc/reference/en/index.html:115(span)
+#: doc/reference/en/file.README.html:103(span)
+#: doc/reference/en/file.README.html:108(span)
+#: doc/reference/en/file.README.html:115(span)
+msgid "nil"
+msgstr ""
+
+#: doc/reference/en/index.html:104(span)
+#: doc/reference/en/file.README.html:104(span)
+msgid "begin"
+msgstr ""
+
+#: doc/reference/en/index.html:105(span) doc/reference/en/index.html:108(span)
+#: doc/reference/en/index.html:114(span) doc/reference/en/index.html:115(span)
+#: doc/reference/en/index.html:116(span)
+#: doc/reference/en/file.README.html:105(span)
+#: doc/reference/en/file.README.html:108(span)
+#: doc/reference/en/file.README.html:114(span)
+#: doc/reference/en/file.README.html:115(span)
+#: doc/reference/en/file.README.html:116(span)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:69(span)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:74(li)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:185(span)
+msgid "Base"
+msgstr ""
+
+#: doc/reference/en/index.html:105(span)
+#: doc/reference/en/file.README.html:105(span)
+msgid "dump"
+msgstr ""
+
+#: doc/reference/en/index.html:105(span) doc/reference/en/index.html:108(span)
+#: doc/reference/en/index.html:115(span)
+#: doc/reference/en/file.README.html:105(span)
+#: doc/reference/en/file.README.html:108(span)
+#: doc/reference/en/file.README.html:115(span)
+msgid ":scope"
+msgstr ""
+
+#: doc/reference/en/index.html:105(span) doc/reference/en/index.html:108(span)
+#: doc/reference/en/index.html:115(span)
+#: doc/reference/en/file.README.html:105(span)
+#: doc/reference/en/file.README.html:108(span)
+#: doc/reference/en/file.README.html:115(span)
+msgid ":sub"
+msgstr ""
+
+#: doc/reference/en/index.html:106(span)
+#: doc/reference/en/file.README.html:106(span)
+msgid "rescue"
+msgstr ""
+
+#: doc/reference/en/index.html:106(span)
+#: doc/reference/en/file.README.html:106(span)
+msgid "ConnectionError"
+msgstr ""
+
+#: doc/reference/en/index.html:108(span) doc/reference/en/index.html:115(span)
+#: doc/reference/en/file.README.html:108(span)
+#: doc/reference/en/file.README.html:115(span)
+msgid "delete_all"
+msgstr ""
+
+#: doc/reference/en/index.html:109(span) doc/reference/en/index.html:120(span)
+#: doc/reference/en/file.README.html:109(span)
+#: doc/reference/en/file.README.html:120(span)
+msgid "populate_ldap"
+msgstr ""
+
+#: doc/reference/en/index.html:112(span)
+#: doc/reference/en/file.README.html:112(span)
+msgid "teardown"
+msgstr ""
+
+#: doc/reference/en/index.html:113(span)
+#: doc/reference/en/file.README.html:113(span)
+msgid "if"
+msgstr ""
+
+#: doc/reference/en/index.html:114(span)
+#: doc/reference/en/file.README.html:114(span)
+msgid "setup_connection"
+msgstr ""
+
+#: doc/reference/en/index.html:116(span)
+#: doc/reference/en/file.README.html:116(span)
+msgid "load"
+msgstr ""
+
+#: doc/reference/en/index.html:120(span) doc/reference/en/index.html:125(span)
+#: doc/reference/en/index.html:129(span) doc/reference/en/index.html:144(span)
+#: doc/reference/en/file.README.html:120(span)
+#: doc/reference/en/file.README.html:125(span)
+#: doc/reference/en/file.README.html:129(span)
+#: doc/reference/en/file.README.html:144(span)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:184(span)
+msgid "def"
+msgstr ""
+
+#: doc/reference/en/index.html:121(span) doc/reference/en/index.html:125(span)
+#: doc/reference/en/file.README.html:121(span)
+#: doc/reference/en/file.README.html:125(span)
+msgid "populate_ldap_base"
+msgstr ""
+
+#: doc/reference/en/index.html:122(span) doc/reference/en/index.html:129(span)
+#: doc/reference/en/index.html:144(span)
+#: doc/reference/en/file.README.html:122(span)
+#: doc/reference/en/file.README.html:129(span)
+#: doc/reference/en/file.README.html:144(span)
+msgid "populate_ldap_ou"
+msgstr ""
+
+#: doc/reference/en/index.html:126(span) doc/reference/en/index.html:145(span)
+#: doc/reference/en/file.README.html:126(span)
+#: doc/reference/en/file.README.html:145(span)
+msgid "Populate"
+msgstr ""
+
+#: doc/reference/en/index.html:126(span)
+#: doc/reference/en/file.README.html:126(span)
+msgid "ensure_base"
+msgstr ""
+
+#: doc/reference/en/index.html:131(span)
+#: doc/reference/en/file.README.html:131(span)
+msgid "# LDAP: end"
+msgstr "# LDAP: ここまで"
+
+#: doc/reference/en/index.html:134(h2)
+#: doc/reference/en/file.README.html:134(h2)
+msgid "Usage"
+msgstr "使い方"
+
+#: doc/reference/en/index.html:135(p) doc/reference/en/file.README.html:135(p)
+msgid "We generate User model:"
+msgstr "Userモデルを生成します:"
+
+#: doc/reference/en/index.html:136(pre)
+#: doc/reference/en/file.README.html:136(pre)
+msgid "% script/rails generate model User --classes person"
+msgstr ""
+
+#: doc/reference/en/index.html:139(p) doc/reference/en/file.README.html:139(p)
+msgid "We populate ou=Users on setup in test/test_helper.rb:"
+msgstr "test/test_helper.b内でou=Usersを作成します。"
+
+#: doc/reference/en/index.html:145(span)
+#: doc/reference/en/file.README.html:145(span)
+msgid "ensure_ou"
+msgstr ""
+
+#: doc/reference/en/index.html:145(span)
+#: doc/reference/en/file.README.html:145(span)
+msgid "\"Users\""
+msgstr ""
+
+#: doc/reference/en/index.html:149(p) doc/reference/en/file.README.html:149(p)
+msgid "We define test data in test/fabricators/user_fabricator.rb:"
+msgstr "test/fabricators/user_fabricator.rbでテストデータを定義します:"
+
+#: doc/reference/en/index.html:151(span) doc/reference/en/index.html:154(span)
+#: doc/reference/en/file.README.html:151(span)
+#: doc/reference/en/file.README.html:154(span)
+msgid "Fabricator"
+msgstr ""
+
+#: doc/reference/en/index.html:151(span) doc/reference/en/index.html:154(span)
+#: doc/reference/en/file.README.html:151(span)
+#: doc/reference/en/file.README.html:154(span)
+msgid ":user"
+msgstr ""
+
+#: doc/reference/en/index.html:154(span) doc/reference/en/index.html:165(span)
+#: doc/reference/en/file.README.html:154(span)
+#: doc/reference/en/file.README.html:165(span)
+msgid ":bob"
+msgstr ""
+
+#: doc/reference/en/index.html:154(span)
+#: doc/reference/en/file.README.html:154(span)
+msgid ":from"
+msgstr ""
+
+#: doc/reference/en/index.html:155(span) doc/reference/en/index.html:165(span)
+#: doc/reference/en/file.README.html:155(span)
+#: doc/reference/en/file.README.html:165(span)
+msgid "cn"
+msgstr ""
+
+#: doc/reference/en/index.html:155(span) doc/reference/en/index.html:165(span)
+#: doc/reference/en/file.README.html:155(span)
+#: doc/reference/en/file.README.html:165(span)
+msgid "\"Bob\""
+msgstr ""
+
+#: doc/reference/en/index.html:156(span)
+#: doc/reference/en/file.README.html:156(span)
+msgid "sn"
+msgstr ""
+
+#: doc/reference/en/index.html:156(span)
+#: doc/reference/en/file.README.html:156(span)
+msgid "\"Dyran\""
+msgstr ""
+
+#: doc/reference/en/index.html:159(p) doc/reference/en/file.README.html:159(p)
+msgid "We add a test for User model in test/unit/user_test.rb:"
+msgstr "test/unit/user_test.rbでUserモデルのテストを書きます:"
+
+#: doc/reference/en/index.html:161(span)
+#: doc/reference/en/file.README.html:161(span)
+msgid "'test_helper'"
+msgstr ""
+
+#: doc/reference/en/index.html:163(span)
+#: doc/reference/en/file.README.html:163(span)
+msgid "UserTest"
+msgstr ""
+
+#: doc/reference/en/index.html:163(span)
+#: doc/reference/en/file.README.html:163(span)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:185(span)
+msgid "&lt;"
+msgstr ""
+
+#: doc/reference/en/index.html:164(span)
+#: doc/reference/en/file.README.html:164(span)
+msgid "test"
+msgstr ""
+
+#: doc/reference/en/index.html:164(span)
+#: doc/reference/en/file.README.html:164(span)
+msgid "\"cn\""
+msgstr ""
+
+#: doc/reference/en/index.html:165(span)
+#: doc/reference/en/file.README.html:165(span)
+msgid "assert_equal"
+msgstr ""
+
+#: doc/reference/en/index.html:165(span)
+#: doc/reference/en/file.README.html:165(span)
+msgid "Fabricate"
+msgstr ""
+
+#: doc/reference/en/index.html:169(p) doc/reference/en/file.README.html:169(p)
+msgid "We run tests:"
+msgstr ""
+
+#: doc/reference/en/index.html:170(pre)
+#: doc/reference/en/file.README.html:170(pre)
+msgid ""
+"% bundle exec rake test Loaded suite /var/lib/gems/1.9.1/gems/rake-0.9.2/lib/"
+"rake/rake_test_loader Started UserTest: PASS cn (1.10s) Finished in 1.101005 "
+"seconds. 1 tests, 1 assertions, 0 failures, 0 errors, 0 skips"
+msgstr ""
+
+#: doc/reference/en/index.html:182(h2)
+#: doc/reference/en/file.README.html:182(h2)
+msgid "Author"
+msgstr "作者"
+
+#: doc/reference/en/index.html:184(em)
+#: doc/reference/en/file.README.html:184(em)
+msgid "&lt;kou@clear-code.com&gt;"
+msgstr ""
+
+#: doc/reference/en/index.html:184(li)
+#: doc/reference/en/file.README.html:184(li)
+msgid "Copyright © 2011 Kouhei Sutou <placeholder-1/>"
+msgstr ""
+
+#: doc/reference/en/index.html:186(h2)
+#: doc/reference/en/file.README.html:186(h2)
+msgid "Licence"
+msgstr "ライセンス"
+
+#: doc/reference/en/index.html:187(span)
+#: doc/reference/en/file.README.html:187(span)
+msgid "GNU"
+msgstr ""
+
+#: doc/reference/en/index.html:187(p) doc/reference/en/file.README.html:187(p)
+msgid ""
+"This program is free software; you can redistribute it and/or modify it. It "
+"is dual licensed under Ruby’s license and under the terms of the Lesser "
+"<placeholder-1/> General Public License as published by the Free Software "
+"Foundation; either version 2.1, or (at your option) any later version."
+msgstr ""
+
+#: doc/reference/en/index.html:188(span)
+#: doc/reference/en/file.README.html:188(span)
+msgid "COPYING"
+msgstr ""
+
+#: doc/reference/en/index.html:188(p) doc/reference/en/file.README.html:188(p)
+msgid "Please see the file <placeholder-1/> for the terms of the licence."
+msgstr "ライセンス条項は<placeholder-1/>ファイルを見てください。"
+
+#: doc/reference/en/index.html:189(h2)
+#: doc/reference/en/file.README.html:189(h2)
+msgid "Thanks"
+msgstr "感謝"
+
+#: doc/reference/en/index.html:191(li)
+#: doc/reference/en/file.README.html:191(li)
+msgid "…"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:6(title)
+msgid "Module: ActiveLdapFabrication::VERSION &mdash; ActiveLdap Fabrication"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:17(script)
+msgid "relpath = '..'; if (relpath != '') relpath += '/';"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:36(a)
+msgid "Index (V)"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:59(h1)
+msgid "Module: ActiveLdapFabrication::VERSION"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:74(dt)
+#: doc/reference/en/ActiveLdapFabrication.html:74(dt)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:91(dt)
+msgid "Defined in:"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:75(dd)
+#: doc/reference/en/ActiveLdapFabrication.html:75(dd)
+msgid "lib/active_ldap_fabrication/version.rb"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:81(h2)
+msgid "Constant Summary"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:85(dt)
+msgid "MAJOR ="
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:88(span)
+msgid "1"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:91(dt)
+msgid "MINOR ="
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:94(span)
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:100(span)
+msgid "0"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:97(dt)
+msgid "TINY ="
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:103(dt)
+msgid "STRING ="
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:106(span)
+msgid "MAJOR"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:106(span)
+msgid "MINOR"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:106(span)
+msgid "TINY"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:106(span)
+msgid "join"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication/VERSION.html:106(span)
+msgid "\".\""
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication.html:6(title)
+msgid "Module: ActiveLdapFabrication &mdash; ActiveLdap Fabrication"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication.html:36(a)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:36(a)
+msgid "Index (A)"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication.html:59(h1)
+msgid "Module: ActiveLdapFabrication"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication.html:80(h2)
+msgid "Overview"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication.html:83(p)
+msgid "Copyright (C) 2011 Kouhei Sutou &lt;kou@clear-code.com&gt;"
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication.html:85(p)
+msgid ""
+"This library is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU Lesser General Public License as published by the "
+"Free Software Foundation; either version 2.1 of the License, or (at your "
+"option) any later version."
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication.html:90(p)
+msgid ""
+"This library is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License "
+"for more details."
+msgstr ""
+
+#: doc/reference/en/ActiveLdapFabrication.html:95(p)
+msgid ""
+"You should have received a copy of the GNU Lesser General Public License "
+"along with this library; if not, write to the Free Software Foundation, "
+"Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:6(title)
+msgid ""
+"Class: Fabrication::Generator::ActiveLdap &mdash; ActiveLdap Fabrication"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:17(script)
+msgid "relpath = '../..'; if (relpath != '') relpath += '/';"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:37(span)
+msgid "Generator"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:59(h1)
+msgid "Class: Fabrication::Generator::ActiveLdap"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:67(dt)
+msgid "Inherits:"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:72(li)
+msgid "Object"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:79(a)
+msgid "show all"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:92(dd)
+msgid "lib/fabrication/generator/active_ldap.rb"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:107(a)
+msgid "collapse"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:107(small)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:163(span)
+msgid "(<placeholder-1/>)"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:105(h2)
+msgid "Class Method Summary <placeholder-1/>"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:115(a)
+msgid "+ (Boolean) <placeholder-1/>(klass)"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:140(h2)
+msgid "Class Method Details"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:146(tt)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:163(tt)
+msgid "Boolean"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:144(p)
+msgid "+ (<placeholder-1/>) <placeholder-2/>(klass)"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:157(h3)
+msgid "Returns:"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:174(pre)
+msgid "20 21 22"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:182(span)
+msgid "# File 'lib/fabrication/generator/active_ldap.rb', line 20"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:184(span)
+msgid "self"
+msgstr ""
+
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:184(span)
+#: doc/reference/en/Fabrication/Generator/ActiveLdap.html:185(span)
+msgid "klass"
+msgstr ""
+
+#: doc/reference/en/file_list.html:43(a) doc/reference/en/_index.html:63(a)
+msgid "README"
+msgstr ""
+
+#: doc/reference/en/file_list.html:46(a) doc/reference/en/_index.html:66(a)
+msgid "news"
+msgstr ""
+
+#: doc/reference/en/_index.html:57(h1)
+msgid "Alphabetic Index"
+msgstr "アルファベット順の索引"
+
+#: doc/reference/en/_index.html:59(h2)
+msgid "File Listing"
+msgstr "ファイル一覧"
+
+#: doc/reference/en/_index.html:72(h2)
+msgid "Namespace Listing A-Z"
+msgstr "A-Z順のネームスペース一覧"
+
+#: doc/reference/en/_index.html:83(li)
+msgid "A"
+msgstr ""
+
+#: doc/reference/en/_index.html:89(small)
+msgid "(Fabrication::Generator)"
+msgstr ""
+
+#: doc/reference/en/_index.html:103(li)
+msgid "V"
+msgstr ""
+
+#: doc/reference/en/_index.html:109(small)
+msgid "(ActiveLdapFabrication)"
+msgstr ""
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: doc/reference/en/_index.html:0(None)
+msgid "translator-credits"
+msgstr ""

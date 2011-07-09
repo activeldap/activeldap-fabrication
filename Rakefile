@@ -72,7 +72,8 @@ YARD::Rake::YardocTask.new do |task|
   task.options += ["--files", "doc/text/**/*"]
   task.options += ["--output-dir", doc_en_dir.to_s]
   task.options += ["--charset", "utf-8"]
-  task.files += FileList["lib/**/*.rb"] - ["README.textile"]
+  task.files += FileList["lib/**/*.rb"]
+  task.files -= ["README.textile"]
 end
 
 task :yard do

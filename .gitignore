@@ -1,4 +1,8 @@
+/.yardoc/
 /test/.test-result/
 /test/config.yaml
 /pkg/
 /Gemfile.lock
+/doc/po/*.pot
+/doc/reference/
+/doc/html/activeldap-fabrication/
