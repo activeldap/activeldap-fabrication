@@ -1,0 +1,4 @@
+/test/.test-result/
+/test/config.yaml
+/pkg/
+/Gemfile.lock

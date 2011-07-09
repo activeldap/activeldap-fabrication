@@ -1,0 +1,36 @@
+h1. ActiveLdap Fabrication
+
+"ActiveLdap":http://ruby-activeldap.rubyforge.org/ adapter
+for "Fabrication":http://fabricationgem.org/.
+
+h2. Description
+
+'ActiveLdap Fabrication' is an ActiveLdap adapter for
+Fabrication. It means that you can use Fabrication as
+fixture replacement for ActiveLdap.
+
+For example and usage - read the
+"document":http://ruby-activeldap.rubyforge.org/activeldap-fabrication/.
+
+h2. Requirements
+
+- "ActiveLdap":http://ruby-activeldap.rubyforge.org/
+- "Fabrication":http://fabricationgem.org/
+
+h2. Author
+
+* Copyright (C) 2011 Kouhei Sutou _<kou@clear-code.com>_
+
+h2. Licence
+
+This program is free software; you can redistribute it
+and/or modify it.  It is dual licensed under Ruby's license
+and under the terms of the Lesser GNU General Public License
+as published by the Free Software Foundation; either version
+2.1, or (at your option) any later version.
+
+Please see the file COPYING for the terms of the licence.
+
+h2. Thanks
+
+* ...
