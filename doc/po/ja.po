@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ActiveLdap Fabrication 1.0.0\n"
-"POT-Creation-Date: 2011-07-09 22:29+0900\n"
-"PO-Revision-Date: 2011-07-09 22:30+0900\n"
+"POT-Creation-Date: 2011-07-09 22:36+0900\n"
+"PO-Revision-Date: 2011-07-09 22:36+0900\n"
 "Last-Translator: Kouhei Sutou <kou@clear-code.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -290,7 +290,7 @@ msgstr ""
 
 #: doc/reference/en/index.html:58(p) doc/reference/en/file.README.html:58(p)
 msgid "<placeholder-1/> adapter for <placeholder-2/>."
-msgstr "<placeholder-2/>用の<placeholder-1/>アダプタ。"
+msgstr "<placeholder-2/>の<placeholder-1/>アダプタ。"
 
 #: doc/reference/en/index.html:59(h2) doc/reference/en/file.README.html:59(h2)
 msgid "Description"
@@ -301,7 +301,7 @@ msgid ""
 "‘ActiveLdap Fabrication’ is an ActiveLdap adapter for Fabrication. It means "
 "that you can use Fabrication as fixture replacement for ActiveLdap."
 msgstr ""
-"‘ActiveLdap Fabrication’はFabrication用のActiveLdapアダプタです。これを使うと"
+"‘ActiveLdap Fabrication’はFabricationのActiveLdapアダプタです。これを使うと"
 "ActiveLdapの代替フィクスチャーシステムとしてFabricationを使えるようになりま"
 "す。"
 
