@@ -18,8 +18,8 @@
 
 $VERBOSE = true
 
-require 'pathname'
-require 'shellwords'
+require "pathname"
+require "shellwords"
 
 base_dir = Pathname(__FILE__).dirname.parent.expand_path
 lib_dir = base_dir + "lib"
@@ -32,17 +32,17 @@ end
 
 ENV["TEST_UNIT_MAX_DIFF_TARGET_STRING_SIZE"] = "10000"
 
-require 'test-unit'
-require 'test/unit/notify'
+require "test-unit"
+require "test/unit/notify"
 Test::Unit::Priority.enable
 
 $LOAD_PATH.unshift(lib_dir)
 
 $LOAD_PATH.unshift(test_dir)
-require 'active-ldap-fabrication-test-utils'
+require "active-ldap-fabrication-test-utils"
 
 Dir.glob("test/**/test[_-]*.rb") do |file|
-  require file.sub(/\.rb$/, '')
+  require file.sub(/\.rb$/, "")
 end
 
 exit Test::Unit::AutoRunner.run(false)
