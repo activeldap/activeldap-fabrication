@@ -27,7 +27,7 @@ test_dir = base_dir + "test"
 
 active_ldap_dir = base_dir.parent + "activeldap"
 if active_ldap_dir.exist?
-  $LOAD_PATH.unshift(active_ldap_dir + "lib")
+  $LOAD_PATH.unshift((active_ldap_dir + "lib").to_s)
 end
 
 ENV["TEST_UNIT_MAX_DIFF_TARGET_STRING_SIZE"] = "10000"
@@ -36,9 +36,9 @@ require "test-unit"
 require "test/unit/notify"
 Test::Unit::Priority.enable
 
-$LOAD_PATH.unshift(lib_dir)
+$LOAD_PATH.unshift(lib_dir.to_s)
 
-$LOAD_PATH.unshift(test_dir)
+$LOAD_PATH.unshift(test_dir.to_s)
 require "active-ldap-fabrication-test-utils"
 
 Dir.glob("test/**/test[_-]*.rb") do |file|
