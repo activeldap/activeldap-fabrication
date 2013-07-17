@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 #
-# Copyright (C) 2011  Kouhei Sutou <kou@clear-code.com>
+# Copyright (C) 2011-2013  Kouhei Sutou <kou@clear-code.com>
 #
 # This library is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
@@ -32,7 +32,7 @@ end
 
 ENV["TEST_UNIT_MAX_DIFF_TARGET_STRING_SIZE"] = "10000"
 
-require 'test/unit'
+require 'test-unit'
 require 'test/unit/notify'
 Test::Unit::Priority.enable
 
