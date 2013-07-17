@@ -19,7 +19,7 @@
 source "http://rubygems.org"
 
 gem "activeldap"
-gem "fabrication"
+gem "fabrication", ">= 2.7.2"
 
 group :development, :test do
   gem "net-ldap"

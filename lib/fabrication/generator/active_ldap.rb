@@ -22,4 +22,4 @@ class Fabrication::Generator::ActiveLdap < Fabrication::Generator::Base
   end
 end
 
-Fabrication::Schematic::GENERATORS.unshift(Fabrication::Generator::ActiveLdap)
+Fabrication::Schematic::Definition::GENERATORS.unshift(Fabrication::Generator::ActiveLdap)
