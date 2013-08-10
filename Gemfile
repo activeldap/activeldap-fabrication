@@ -18,14 +18,4 @@
 
 source "http://rubygems.org"
 
-gem "activeldap"
-gem "fabrication", ">= 2.7.2"
-
-group :development, :test do
-  gem "net-ldap"
-  gem "jeweler"
-  gem "test-unit"
-  gem "test-unit-notify"
-  gem "yard"
-  gem "RedCloth"
-end
+gemspec
