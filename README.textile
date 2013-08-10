@@ -1,8 +1,12 @@
-h1. ActiveLdap Fabrication
+h1. README
 
-"ActiveLdap":http://ruby-activeldap.rubyforge.org/ adapter for "Fabrication":http://fabricationgem.org/.
+h2. Name
+
+ActiveLdap Fabrication
 
 h2. Description
+
+"ActiveLdap":http://ruby-activeldap.rubyforge.org/ adapter for "Fabrication":http://fabricationgem.org/.
 
 'ActiveLdap Fabrication' is an ActiveLdap adapter for Fabrication. It means that you can use Fabrication as fixture replacement for ActiveLdap.
 
