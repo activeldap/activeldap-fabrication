@@ -13,8 +13,6 @@ olcRootPW: ${crypted_password}
 -
 EOF
 
-sudo ldapmodify -Y EXTERNAL -H ldapi:/// -f test/add-phonetic-attribute-options-to-slapd.ldif
-
 base="dc=`echo get slapd/domain | sudo debconf-communicate slapd | sed -e 's/^0 //' | sed -e 's/^\.//; s/\./,dc=/g'`"
 cat <<EOF > test/config.yaml
 test:
