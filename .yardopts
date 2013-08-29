@@ -1,5 +1,5 @@
 --exclude /templates/
 --markup textile
---readme README.tetile
+--readme README.textile
 --files doc/text/**/*
 lib/**/*.rb
