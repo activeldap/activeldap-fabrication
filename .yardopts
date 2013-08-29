@@ -1,0 +1,5 @@
+--exclude /templates/
+--markup textile
+--readme README.tetile
+--files doc/text/**/*
+lib/**/*.rb
