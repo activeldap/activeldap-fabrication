@@ -1,5 +1,11 @@
 h1. News
 
+h2(#1-0-1). 1.0.1: 2013-08-29
+
+h3. Improvements
+
+* Supported Fabrication 2.7.2.
+
 h2(#1-0-0). 1.0.0: 2011-07-09
 
 * Initial release!!!
