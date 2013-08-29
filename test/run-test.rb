@@ -41,7 +41,7 @@ $LOAD_PATH.unshift(lib_dir.to_s)
 $LOAD_PATH.unshift(test_dir.to_s)
 require "active-ldap-fabrication-test-utils"
 
-Dir.glob("test/**/test[_-]*.rb") do |file|
+Dir.glob(test_dir + "**/test[_-]*.rb") do |file|
   require file.sub(/\.rb$/, "")
 end
 
