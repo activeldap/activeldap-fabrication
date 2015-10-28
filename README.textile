@@ -1,6 +1,6 @@
 h1. ActiveLdap Fabrication
 
-"ActiveLdap":http://ruby-activeldap.rubyforge.org/ adapter for "Fabrication":http://fabricationgem.org/.
+"ActiveLdap":http://activeldap.github.io/ adapter for "Fabrication":http://fabricationgem.org/.
 
 h2. Description
 
@@ -8,7 +8,7 @@ h2. Description
 
 h2. Requirements
 
-* "ActiveLdap":http://ruby-activeldap.rubyforge.org/
+* "ActiveLdap":http://activeldap.github.io/
 * "Fabrication":http://fabricationgem.org/
 
 h2. Install

@@ -23,7 +23,6 @@ require 'active_ldap_fabrication/version'
 Gem::Specification.new do |spec|
   spec.name = "activeldap-fabrication"
   spec.version = ActiveLdapFabrication::VERSION::STRING.dup
-  spec.rubyforge_project = 'ruby-activeldap'
   spec.authors = ["Kouhei Sutou"]
   spec.email = ["kou@clear-code.com"]
   spec.summary = "ActiveLdap Fabrication is an ActiveLdap adapter for Fabrication."
